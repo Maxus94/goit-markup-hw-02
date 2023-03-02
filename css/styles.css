@@ -74,7 +74,7 @@
 .footer-text {
     font-family: var(--main-font);
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--button-second-color);
 }
@@ -83,6 +83,7 @@
 body {
     font-family: var(--main-font);
     color: var(--main-titles-color);
+    background-color: #FFFFFF;
 }
 
 /*section Effective solutions*/
@@ -99,7 +100,7 @@ body {
 }
 
 .main-title-button {
-
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -122,7 +123,7 @@ body {
 .principle-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -155,6 +156,9 @@ body {
 .team-members {
     list-style-type: none;
 }
+.team-member {
+    background-color: #FFFFFF;;
+}
 
 .member-picture {
     width: 264;
@@ -164,7 +168,7 @@ body {
 .member-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -181,6 +185,7 @@ body {
 }
 
 .property-button {
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -212,4 +217,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 /* SLATE */
 color: var(--main-text-color);
+}
+.portfolio-link{    
 }
