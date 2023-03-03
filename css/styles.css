@@ -13,6 +13,10 @@
 }
 
 /*Header and footer styles*/
+.link {
+    text-decoration: none;
+}
+
 .logo-link {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -21,12 +25,15 @@
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
-    color: var(--main-titles-color);
-    text-decoration: none;
+    color: var(--button-main-color);
 }
 
 .logo-em {
-    color: var(--button-main-color);
+    color: var(--main-titles-color);
+}
+
+.list {
+    list-style: none;
 }
 
 .nav-link {
@@ -36,19 +43,19 @@
     font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
-    text-decoration: none;
+    color: var(--main-titles-color);
 }
 
+.contact {
+    font-style: normal;
+}
 
 .contact-link {
     font-family: var(--main-font);
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
-    font-style: normal;
-    text-decoration: none;
+    color: var(--main-text-color);    
 }
 
 .nav-link:hover,
@@ -58,19 +65,13 @@
     color: var(--hover-color);
 }
 
-.nav-item,
-.contact-item {
-    list-style-type: none;
-}
 
 .footer {
     background-color: var(--main-titles-color);
 }
-
-.footer>.logo-link {
-    color: var(--lightest-grey);
+.footer .logo-em{
+    color: var(--lightest-grey)
 }
-
 .footer-text {
     font-family: var(--main-font);
     font-size: 16px;
@@ -82,7 +83,7 @@
 /*main styles*/
 body {
     font-family: var(--main-font);
-    color: var(--main-titles-color);
+    color: var(--main-text-color);
     background-color: #FFFFFF;
 }
 
@@ -97,6 +98,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .main-title-button {
@@ -107,6 +109,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: var(--button-main-color);
+    cursor: pointer;
 }
 
 .main-title-button:hover,
@@ -117,7 +120,7 @@ body {
 
 /*section Principles*/
 .principles-list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .principle-title {
@@ -125,13 +128,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--main-titles-color);    
 }
 
 .principle-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
 }
 
 /*section What are we doing*/
@@ -142,22 +145,19 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--main-titles-color);
+    text-align: center;
 }
 
-
-.list-of-examples {
-    list-style-type: none;
-}
 
 /*section Our team*/
-.team-description{
+.team-description {
     background-color: var(--lightest-grey);
 }
-.team-members {
-    list-style-type: none;
-}
+
 .team-member {
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
+    ;
 }
 
 .member-picture {
@@ -170,19 +170,16 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--main-titles-color);
 }
 
 .member-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
 }
 
 /*Styles for portfolio*/
-.filter-buttons {
-    list-style-type: none;
-}
 
 .property-button {
     font-family: var(--main-font);
@@ -192,6 +189,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--button-main-color);
     background-color: var(--lightest-grey);
+    cursor: pointer;
 }
 
 .property-button:hover,
@@ -201,22 +199,19 @@ body {
     cursor: pointer;
 }
 
-.portfolio-item-list {
-    list-style-type: none;
-}
+
 
 .portfolio-item-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--main-titles-color);
 }
-.portfolio-item-type{
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-/* SLATE */
-color: var(--main-text-color);
-}
-.portfolio-link{    
+
+.portfolio-item-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
